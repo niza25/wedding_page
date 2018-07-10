@@ -1,0 +1,15 @@
+{
+  "name": "weddingpage",
+  "version": "1.0.0",
+  "description": "wedding page for information purposes only",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "niza",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
