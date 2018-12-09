@@ -62,7 +62,7 @@ color: var(--stronger-color);
 #home{
 	width: 100vw;
   	height: 100vh;
-  	background-image: url("../img/Innen.jpg");
+  	background-image: url("../img/home.jpg");
   	z-index: 0;
   	background-position: center;
   	background-repeat: no-repeat;
