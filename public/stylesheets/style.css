@@ -82,12 +82,21 @@ color: var(--stronger-color);
 #parallax, #parallax2{
   height: 100vh;
   background-attachment: fixed;
-  background-position: center !important;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
+}
+
+/* ===== Style for smartphone and iPad in portrait & landscape== =  */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px)  {  
+#parallax, #parallax2 {
+    background-attachment: unset !important;
+    background-position: center top !important; }
 }
 
 #parallax{
