@@ -80,7 +80,7 @@ color: var(--stronger-color);
 }
 
 #parallax, #parallax2{
-  min-height: 600px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
